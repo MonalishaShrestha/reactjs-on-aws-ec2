@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the react-app directory
-sudo chmod -R 777 /home/ec2-user/test
+sudo chmod -R 777 /home/ec2-user/express-app
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/test
+cd /home/ec2-user/express-app
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
